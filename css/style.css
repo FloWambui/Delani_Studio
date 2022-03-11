@@ -2,11 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Hubballi', cursive;
 }
 body{
-    height: 100vh;
-    width: 100%;
-    font-family: 'Hubballi', cursive;
     background-color: black;
 }
 .home-page{
@@ -34,6 +32,3 @@ body{
     font-size: 1.2rem;  
     margin-bottom: 100px;
 }
-/* .mouse{
-    margin-top: 180px;
-} */
