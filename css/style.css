@@ -1,34 +1,38 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Hubballi', cursive;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hubballi", cursive;
 }
-body{
-    background-color: black;
+body {
+  background-color: white;
 }
-.home-page{
-    height: 100vh;
-    width: 100%;
-} 
-.deets{
-    color: white;
-    justify-content: center;
-    align-items: stretch;
-    text-align: center;
-    margin-top: -600px;
+.homepage {
+  background-image: url(../assets/backgrounds/home_img.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.logo, .welcome1{
-    margin: -5px 0px 40px 0px;
-    font-size: 60px;
-    font-weight: 800;
+
+.deets {
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15%;
 }
-.welcome{
-    font-size: 60px;
-    font-weight: 800;
-    /* margin-top: -20px; */
+.logo {
+  padding-bottom: 50px;
 }
-.state{
-    font-size: 1.2rem;  
-    margin-bottom: 100px;
+.welcome1,
+.welcome {
+  font-size: 4rem;
+  font-weight: 800;
+}
+.state {
+  font-size: 1.2rem;
+}
+.mouse {
+  padding-top: 16%;
 }
