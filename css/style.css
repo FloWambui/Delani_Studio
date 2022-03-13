@@ -37,10 +37,27 @@ body {
   padding-top: 16%;
 }
 .about{
-    font-size: 2.4rem;
+    font-size: 2.8rem;
     font-weight: 800;
 }
 .abt p{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
+}
+.services{
+    background-image: url(../assets/backgrounds/services_image.jpg);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.services h1{
+    padding-top: 7%;
+    font-weight: 800;
+    font-size: 2.8rem;
+}
+.services p{
+    font-weight: 600;
+    font-size: 20px;
 }
