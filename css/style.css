@@ -109,7 +109,6 @@ body {
   background-image: url(../assets/backgrounds/contact_image.jpg);
   height: 90vh;
   width: 100%;
-  border: 1px solid red;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -149,4 +148,17 @@ body {
   padding-top: 2%;
   font-weight: 800;
   font-size: 2.8rem;
+}
+.footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 3%;
+}
+.copyright {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
 }
