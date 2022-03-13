@@ -98,11 +98,53 @@ body {
   align-content: center;
   text-align: center;
 }
-.portfolio{
-    border: 2px solid red;
-    height: 75vh;
+.portfolio {
+  height: 75vh;
 }
 .portfolio h1 {
+  font-weight: 800;
+  font-size: 2.8rem;
+}
+.contact {
+  background-image: url(../assets/backgrounds/contact_image.jpg);
+  height: 90vh;
+  border: 1px solid red;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.nm-email {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+.form-control1 {
+  height: 1cm;
+  width: 20cm;
+  background: none;
+  border: 2px solid white;
+}
+::placeholder {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.form-control {
+  background: none;
+  margin-top: 40px;
+  border: 2px solid white;
+}
+.button {
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.contact h1 {
+  padding-top: 2%;
   font-weight: 800;
   font-size: 2.8rem;
 }
