@@ -3,9 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Hubballi", cursive;
+  
 }
 body {
   background-color: white;
+  width: 100%;
 }
 .homepage {
   background-image: url(../assets/backgrounds/home_img.jpg);
@@ -34,8 +36,19 @@ body {
   font-size: 1.2rem;
 }
 .mouse {
-  padding-top: 16%;
+  padding-top: 10%;
+  cursor: pointer;
+  animation: updown 1s ease infinite;
 }
+@keyframes updown{
+  0%{
+    transform:translateY(-20%);
+  }
+  50%{
+    transform:translateY(20%)
+  }
+}
+
 .abt {
   height: 50vh;
 }
@@ -187,3 +200,4 @@ span {
   position: relative;
   top: -80px;
 }
+
