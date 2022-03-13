@@ -36,70 +36,58 @@ body {
 .mouse {
   padding-top: 16%;
 }
-.abt{
-    height: 50vh;
+.abt {
+  height: 50vh;
 }
-.about{
-    padding-top: 5%;
-    font-size: 2.8rem;
-    font-weight: 800;
+.about {
+  padding-top: 5%;
+  font-size: 2.8rem;
+  font-weight: 800;
 }
-.abt p{
-    font-size: 20px;
-    font-weight: 600;
+.abt p {
+  font-size: 20px;
+  font-weight: 600;
 }
-.services{
-    background-image: url(../assets/backgrounds/services_image.jpg);
-    height: 50vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
+.services {
+  background-image: url(../assets/backgrounds/services_image.jpg);
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
-.services h1{
-    padding-top: 7%;
-    font-weight: 800;
-    font-size: 2.8rem;
+.services h1 {
+  padding-top: 7%;
+  font-weight: 800;
+  font-size: 2.8rem;
 }
-.services p{
-    font-weight: 600;
-    font-size: 20px;
+.services p {
+  font-weight: 600;
+  font-size: 20px;
 }
-.our-work{
-    height: 40vh;
-    justify-content: space-around;
-    border: 3px solid red;
+.our-work {
+  height: 40vh;
+  justify-content: space-around;
+  border: 3px solid red;
 }
-.our-work h1{
-    padding-top: 2%;
-    font-weight: 800;
-    font-size: 2.8rem;
+.our-work h1 {
+  padding-top: 2%;
+  font-weight: 800;
+  font-size: 2.8rem;
 }
-.design{
-    background-image: url(../assets/services_icons/design_icon.png);
-    height: 20vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    border: 2px solid peru;
+.design {
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  border: 2px solid peru;
 }
-.development{
-    background-image: url(../assets/services_icons/dev_icon.png);
-    height: 20vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
+.development {
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
-.productmngt{
-    background-image: url(../assets/services_icons/product_icon.png);
-    height: 20vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
+.productmngt {
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
