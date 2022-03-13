@@ -67,6 +67,7 @@ body {
 }
 .our-work {
   justify-content: space-around;
+  height: 50vh;
   font-size: 20px;
   font-weight: 500;
 }
@@ -96,4 +97,12 @@ body {
   justify-content: center;
   align-content: center;
   text-align: center;
+}
+.portfolio{
+    border: 2px solid red;
+    height: 75vh;
+}
+.portfolio h1 {
+  font-weight: 800;
+  font-size: 2.8rem;
 }
