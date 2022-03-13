@@ -13,6 +13,22 @@ $(document).ready(function(){
     });
 
 })
+// $(document).ready(function(){
+//     $(".portimg").hover(function(){
+//         $(this).find(".imgtitle").fadeIn(300);
+
+//     }, function(){
+//         $(this).find("imgtitle").fadeOut(150);
+//     });
+// })
+$(document).ready(function(){
+    $(".portimg").hover(function(){
+        $(".imgtitle",this).slideToggle("slow");
+    })
+ 
+
+    
+})
 
 
 

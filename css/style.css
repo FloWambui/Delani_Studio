@@ -101,6 +101,10 @@ body {
 .portfolio {
   height: 75vh;
 }
+.portfolio2 {
+  padding-top: 2%;
+}
+
 .portfolio h1 {
   font-weight: 800;
   font-size: 2.8rem;
@@ -162,11 +166,24 @@ body {
   font-weight: bold;
   font-size: 18px;
 }
-.design p, .development p, .productmngt p{
+.design p,
+.development p,
+.productmngt p {
   display: none;
   cursor: pointer;
 }
-span{
+span {
   font-size: 2rem;
   font-weight: 600;
+}
+.imgtitle {
+  font-size: 20px;
+  font-weight: 800;
+  color:aqua;
+  background-color: gray;
+  border: 5px solid white;
+  text-align: center;
+  display: none;
+  position: relative;
+  top: -80px;
 }
