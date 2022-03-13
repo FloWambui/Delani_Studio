@@ -108,6 +108,7 @@ body {
 .contact {
   background-image: url(../assets/backgrounds/contact_image.jpg);
   height: 90vh;
+  width: 100%;
   border: 1px solid red;
   background-position: center;
   background-repeat: no-repeat;
@@ -116,6 +117,7 @@ body {
 }
 .nm-email {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
