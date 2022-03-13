@@ -36,7 +36,11 @@ body {
 .mouse {
   padding-top: 16%;
 }
+.abt{
+    height: 50vh;
+}
 .about{
+    padding-top: 5%;
     font-size: 2.8rem;
     font-weight: 800;
 }
@@ -60,4 +64,42 @@ body {
 .services p{
     font-weight: 600;
     font-size: 20px;
+}
+.our-work{
+    height: 40vh;
+    justify-content: space-around;
+    border: 3px solid red;
+}
+.our-work h1{
+    padding-top: 2%;
+    font-weight: 800;
+    font-size: 2.8rem;
+}
+.design{
+    background-image: url(../assets/services_icons/design_icon.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border: 2px solid peru;
+}
+.development{
+    background-image: url(../assets/services_icons/dev_icon.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.productmngt{
+    background-image: url(../assets/services_icons/product_icon.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
 }
