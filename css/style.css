@@ -190,14 +190,18 @@ span {
   font-weight: 600;
 }
 .imgtitle {
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 800;
   color:aqua;
-  background-color: gray;
+  background-color: rgb(0, 0, 0, 0.4);
   border: 5px solid white;
+  justify-content: center;
+  align-content: center;
   text-align: center;
   display: none;
   position: relative;
-  top: -80px;
+  top: -200px;
+  height: 4cm;
+
 }
 
