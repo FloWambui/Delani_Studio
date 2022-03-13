@@ -76,7 +76,8 @@
           <img src="./assets/services_icons/design_icon.png" />
           <h5 class="text">DESIGN</h5>
         </div>
-        <p class="description">
+        <p class="description1">
+          <span>DESIGN</span><br>
           Our design practice offers a full range of services including brand
           strategy, interaction and visual design and user experience testing.
           <br />Throughout your project, our designers create and implement
@@ -89,7 +90,8 @@
           <img src="./assets/services_icons/dev_icon.png" />
           <h5 class="text">DEVEL0PMENT</h5>
         </div>
-        <p class="description">
+        <p class="description2">
+          <span>DEVEL0PMENT</span><br>
           All engineers are fluent in the latest enterprise, mobile and web
           development technologies. The collaborate with your team to write
           and<br />
@@ -102,7 +104,8 @@
           <img src="./assets/services_icons/product_icon.png" />
           <h5 class="text">PRODUCT MANAGEMENT</h5>
         </div>
-        <p class="description">
+        <p class="description3">
+          <span>PRODUCT MANAGEMENT</span> <br>
           Planning and development is iterative. Because we are constantly
           coding and testing, the products we build are always ready to go
           live. <br />This iterative process allows for changes os business
@@ -172,25 +175,28 @@
   <!-- Contact Us Page -->
   <div class="container-fluid contact">
     <h1 class="text-center">CONTACT US</h1>
-    <form>
+    <form action="" method="" id="form">
       <div class="nm-email">
         <div class="form-group">
-          <input type="email" class="form-control1" id="exampleFormControlInput1" placeholder="Name..." />
+          <input type="email" class="form-control1" id="exampleFormControlInput1 name" placeholder="Name..." value="" required/>
         </div>
         <div class="form-group">
-          <input type="email" class="form-control1" id="exampleFormControlInput1" placeholder="Email..." />
+          <input type="email" class="form-control1" id="exampleFormControlInput1 email" placeholder="Email..." value="" required/>
         </div>
       </div>
 
       <div class="form-group">
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="20"
-          placeholder="Your message here ...."></textarea>
+        <textarea class="form-control" id="exampleFormControlTextarea1 message" rows="20"
+          placeholder="Your message here ...." value="" required></textarea>
       </div>
     </form>
     <div class="button">
-      <button type="button" class="btn btn-primary btn-lg" onclick="sumbitmsg()">
+      <button type="button" class="btn btn-primary btn-lg" onclick="submitmsg(); return false">
         SUBMIT >>>
       </button>
+      <p id="error"></p>
+      <br>
+      <p id="confirmation"></p>
     </div>
   </div>
 

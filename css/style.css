@@ -162,3 +162,11 @@ body {
   font-weight: bold;
   font-size: 18px;
 }
+.design p, .development p, .productmngt p{
+  display: none;
+  cursor: pointer;
+}
+span{
+  font-size: 2rem;
+  font-weight: 600;
+}
