@@ -66,9 +66,9 @@ body {
   font-size: 20px;
 }
 .our-work {
-  height: 40vh;
   justify-content: space-around;
-  border: 3px solid red;
+  font-size: 20px;
+  font-weight: 500;
 }
 .our-work h1 {
   padding-top: 2%;
@@ -76,17 +76,23 @@ body {
   font-size: 2.8rem;
 }
 .design {
+  height: 30vh;
   justify-content: center;
   align-content: center;
   text-align: center;
-  border: 2px solid peru;
+}
+.text {
+  font-size: 30px;
+  font-weight: 600;
 }
 .development {
+  height: 30vh;
   justify-content: center;
   align-content: center;
   text-align: center;
 }
 .productmngt {
+  height: 30vh;
   justify-content: center;
   align-content: center;
   text-align: center;
