@@ -21,7 +21,7 @@
 ![This is Porfolio Section](./assets/backgrounds/portfolio.png)
 **Live Page**
 
-> This is the link to the live page: https://flowambui.github.io/akan-name-generator/
+> This is the link to the live page: https://flowambui.github.io/Delani_Studio/
 
 ### Requirements
 
